@@ -11,6 +11,10 @@ class Correlation(ModeledCommandParameter):
     (3) CORR2(i) (R) correlation parameter 2
     (4) CORR3(i) (R) correlation parameter 3
     """
+
+    begtag = ''
+    endtag = ''
+    
     models = {
         'model_descriptor': {
             'desc': 'Correlation type',
